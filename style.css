@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px;
+}
+
+.btn-success:hover
+{
+    background-color:blue;
+}
+
+canvas{
+    animation-name: jimmy;
+    animation-duration: 0.001s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jimmy
+{
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
